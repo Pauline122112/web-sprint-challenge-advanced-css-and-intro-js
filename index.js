@@ -218,13 +218,11 @@ console.log(artists[2].bio);
 (no function needed) 
 There is a typo in your dataset 😱 The 9th artist, Vincent Van Gogh is currently Vincent Van Dough. Use an array method to fix this issue and console.log() to check your work. */
 
+// artists.unshift('Vincent Van Gogh');
 
-const firstName = artists.shift();
-console.log(artists[7].name);
-
-artists.unshift('Vincent Van Gogh');
-
-console.log(artists[8].name);
+// artists.shift();
+// console.log(artists[8].name);
+// console.log(artists[8]);
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀  
@@ -235,10 +233,11 @@ console.log(artists[8].name);
  
  Example, if getArtistByIndex is invoked with the artists array and the number 0, it will return `the artist at index 0 is Amedeo Modigliani` */
 
-function getArtistByIndex(/*Your Code Here*/) {
-  /*Your Code Here*/
-}  
+function getArtistByIndex(artists, index) {
+return `the artist at index ${artists[index].id} is ${artists[index].name}`
+};  
 
+console.log(artists[0]);
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
