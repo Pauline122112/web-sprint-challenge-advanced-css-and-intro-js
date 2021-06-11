@@ -137,6 +137,7 @@ button:hover{
 
 @media(max-width: 500px){
     nav {
+        display: flex;
         flex-direction:row;
         align-items:stretch;
         justify-content:space-around;
@@ -146,10 +147,20 @@ button:hover{
     a{
         padding: 6% 10% 10% 10%;
     }
-    img h1{
+    img {
         width: 100;
         height: auto;
+        display: flex;
+        flex-direction: column;
     }
    
+    .artist{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+        width:80%;
+        margin:0 auto;
+    }
     
 }
