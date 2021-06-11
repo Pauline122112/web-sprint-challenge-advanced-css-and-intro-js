@@ -251,12 +251,12 @@ If correct, the function should return ["Salvador Dali", "Frida Kahlo"]*/
 function get20s(array){
   let newArray = [];
   for(let i = 0; i < array.length; i++){
-      if(artists[2] === newArray){
-        return newArray;
-      }
+      if(artists[i].includes('"Salvador Dali", "Frida Kahlo"')){
+        newArray.push(array[i])
+      
       return newArray.push(array[i]);
     } 
-  }
+
 
 console.log(get20s, "Salvador Dali", "Frida Kahlo");
 
@@ -270,12 +270,11 @@ console.log(get20s, "Salvador Dali", "Frida Kahlo");
  
  For example, if removeArtist is invoked with the artists array and the number 0, it will remove Amedeo Modigliani from our dataset and return the number 19. */
 
-function removeArtist(array,number){
-   array.shift()
-   
+function removeArtist(array, number){
+  for(let i = 0; i < array.length; i++){
+    if(array[i].includes())
+  }
 }
-   
-console.log(artists[0].length);
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Use addArtist to do the following: 
@@ -293,7 +292,7 @@ Use addArtist to do the following:
 
 Example: addArtist(artists) should return the artists array with the above object added to the end of the array. */
 
-function addArtist(/*Your Code Here*/){
+function addArtist(array){
     /*Your Code Here*/
   }
 
