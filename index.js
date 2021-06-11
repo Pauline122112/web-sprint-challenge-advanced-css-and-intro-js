@@ -257,8 +257,6 @@ function get20s(array){
       return newArray.push(array[i]);
     } 
   }
-  
-
 
 console.log(get20s, "Salvador Dali", "Frida Kahlo");
 
