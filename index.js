@@ -254,12 +254,10 @@ function get20s(array){
       if(artists[i].includes('"Salvador Dali", "Frida Kahlo"')){
         newArray.push(array[i])
       }
+       return newArray.push(array[i]);
       }
-      return newArray.push(array[i]);
     } 
-  }
 
-console.log(get20s, "Salvador Dali", "Frida Kahlo");
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
