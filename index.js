@@ -253,10 +253,11 @@ function get20s(array){
   for(let i = 0; i < array.length; i++){
       if(artists[i].includes('"Salvador Dali", "Frida Kahlo"')){
         newArray.push(array[i])
-      
+      }
+      }
       return newArray.push(array[i]);
     } 
-
+  }
 
 console.log(get20s, "Salvador Dali", "Frida Kahlo");
 
@@ -270,8 +271,11 @@ console.log(get20s, "Salvador Dali", "Frida Kahlo");
  
  For example, if removeArtist is invoked with the artists array and the number 0, it will remove Amedeo Modigliani from our dataset and return the number 19. */
 
-function removeArtist(){
- 
+function removeArtist(array, number){
+  for(let i = 0; i < array.length; i++){
+    if(array[i].includes())
+  }
+}
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Use addArtist to do the following: 
@@ -302,8 +306,8 @@ Use lotsOfArt to do the following:
 
 For example lotsOfArt(artists); will return ["Amedeo Modigliani", "Rene Magritte", ... "Albrecht Dürer"]*/
 
-function lotsOfArt(array){
-  lotsOfArt(artists)
+function lotsOfArt(/*Your Code Here*/){
+  /*Your Code Here*/
 }
 
 
