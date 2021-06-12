@@ -296,7 +296,7 @@ Use addArtist to do the following:
 
 Example: addArtist(artists) should return the artists array with the above object added to the end of the array. */
 
-function addArtist(array){
+function addArtist(array, newArray){
     /*Your Code Here*/
   }
 
