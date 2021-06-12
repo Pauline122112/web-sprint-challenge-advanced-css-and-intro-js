@@ -272,10 +272,10 @@ function get20s(array){
 function removeArtist(array, number){
   for(let i = 0; i < array.length; i++){
     if(array[i] === number){
-      array.splice(i, 0)
+      array.splice(i, 0);
     }
   }
-  return array;
+  return number;
 }
 
 console.log('task 5:', removeArtist(artists, 0));
